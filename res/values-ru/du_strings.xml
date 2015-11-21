@@ -242,14 +242,24 @@
     <string name="sp_profile_entries_no_override">Оставить без изменения</string>
     <string name="profile_select">Выбор профиля</string>
 
-  <!-- Search -->
-  <string name="menu_search">Search apps</string>
-  <string name="menu_search_hint">Search apps\u2026</string>
+    <!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps\u2026</string>
   
-  <!-- Changelog -->
+    <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">Последние изменения</string>
     <string name="changelog_loading">Загрузка списка изменений\u2026</string>
     <string name="changelog_error">Невозможно загрузить список изменений</string>
+    
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Поворот экрана</string>
+    <string name="display_rotation_disabled">Выключен</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы вращения</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
 
 </resources>
