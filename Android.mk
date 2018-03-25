@@ -67,6 +67,11 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
 
 LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest-du.xml
 
+ifneq ($(ANDROID_COMPILE_WITH_JACK),true)
+  LOCAL_PROGUARD_ENABLED := disabled
+  LOCAL_DX_FLAGS := --multi-dex
+endif
+
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
     LOCAL_JACK_ENABLED := incremental
