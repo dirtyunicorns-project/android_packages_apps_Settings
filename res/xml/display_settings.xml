@@ -139,6 +139,12 @@
             android:key="custom_font"
             android:title="@string/font_picker_title"
             android:persistent="false" />
+	    
+	<com.dirtyunicorns.tweaks.preferences.GlobalSettingSwitchPreference
+        android:key="system_default_animation"
+        android:title="@string/system_default_animation_title"
+        android:summary="@string/system_default_animation_summary"
+        android:defaultValue="false" />
 
     </PreferenceCategory>
 
