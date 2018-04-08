@@ -74,7 +74,4 @@
     <string name="changelog_dialog_message">Пожалуйста, включите мобильные данные / WiFi, чтобы загрузить журнал изменений с нашего сервера.</string>
     <string name="changelog_dialog_ok">OK</string>
 
-    <!-- Android P animation -->
-    <string name="system_default_animation_summary">Включить стиль анимации из Android P</string>
-    
 </resources>
