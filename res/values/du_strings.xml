@@ -260,4 +260,7 @@
     <string name="sp_profile_entries_no_override">No override</string>
     <string name="profile_select">Select profile</string>
 
+    <!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps\u2026</string>
 </resources>
