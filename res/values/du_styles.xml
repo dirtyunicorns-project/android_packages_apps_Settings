@@ -22,4 +22,7 @@
         <item name="android:windowBackground">@drawable/security_dialog_corners</item>
     </style>
 
+    <style name="TabAppTheme" parent="Theme.AppCompat">
+    </style>
+
 </resources>

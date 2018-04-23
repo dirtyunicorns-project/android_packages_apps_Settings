@@ -23,6 +23,7 @@ LOCAL_SRC_FILES := \
         $(call all-java-files-under, ../DU-Tweaks/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
+    android-support-design \
     android-support-v4 \
     android-support-v13 \
     android-support-v7-appcompat \
@@ -53,9 +54,13 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     packages/apps/Changelog/app/src/main/res \
     packages/apps/DU-Tweaks/res
 
+LOCAL_PROGUARD_FLAG_FILES := ../../../frameworks/support/design/proguard-rules.pro
+LOCAL_PROGUARD_FLAG_FILES += ../../../frameworks/support/v7/preference/proguard-rules.pro
+LOCAL_PROGUARD_FLAG_FILES += ../../../frameworks/support/v7/recyclerview/proguard-rules.pro
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
+    --extra-packages android.support.design \
     --extra-packages android.support.v7.preference \
     --extra-packages android.support.v14.preference \
     --extra-packages android.support.v17.preference \
