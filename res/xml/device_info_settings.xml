@@ -27,14 +27,10 @@
 
         <!-- Changelog -->
         <Preference
-            android:key="du_changelog"
-            android:title="@string/duchangelog_title"
-            android:summary="@string/duchangelog_summary">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.settings"
-                android:targetClass="com.bytehamster.changelog.Main" />
-        </Preference>
+            android:key="changelog"
+	    android:title="@string/changelog_title"
+	    android:summary="@string/changelog_summary"
+	    android:fragment="com.android.settings.dirtyunicorns.Changelog" />
 
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"

@@ -246,5 +246,11 @@
   <!-- Search -->
   <string name="menu_search">Search apps</string>
   <string name="menu_search_hint">Search apps\u2026</string>
+  
+  <!-- Changelog -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">Последние изменения</string>
+    <string name="changelog_loading">Загрузка списка изменений\u2026</string>
+    <string name="changelog_error">Невозможно загрузить список изменений</string>
 
 </resources>
