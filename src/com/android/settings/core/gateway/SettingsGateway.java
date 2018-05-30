@@ -268,7 +268,7 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
-            SmartPixels.class.getName(),
+            SmartPixels.class.getName()
             ProfilesSettingsFragment.class.getName()
     };
 
