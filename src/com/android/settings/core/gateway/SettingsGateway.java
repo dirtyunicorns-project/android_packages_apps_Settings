@@ -139,7 +139,6 @@ import com.dirtyunicorns.tweaks.fragments.Miscellaneous;
 import com.dirtyunicorns.tweaks.fragments.NavigationBar;
 import com.dirtyunicorns.tweaks.fragments.PulseSettings;
 import com.dirtyunicorns.tweaks.fragments.SmartbarSettings;
-import com.dirtyunicorns.tweaks.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -268,7 +267,6 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
-            SmartPixels.class.getName()
             ProfilesSettingsFragment.class.getName()
     };
 
@@ -313,7 +311,6 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName(),
-            Settings.SmartPixelsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
