@@ -102,6 +102,7 @@ import com.dirtyunicorns.tweaks.fragments.NavigationBar;
 import com.dirtyunicorns.tweaks.fragments.Notifications;
 import com.dirtyunicorns.tweaks.fragments.PowerMenu;
 import com.dirtyunicorns.tweaks.fragments.PulseSettings;
+import com.dirtyunicorns.tweaks.EdgeGesturesSettings;
 import com.dirtyunicorns.tweaks.fragments.QuickSettings;
 import com.dirtyunicorns.tweaks.fragments.Recents;
 import com.dirtyunicorns.tweaks.fragments.SlimRecentsBlacklist;
@@ -253,6 +254,7 @@ public final class SearchIndexableResources {
         addIndex(Notifications.class, R.xml.notifications, R.drawable.bottomnav_statusbar);
         addIndex(PowerMenu.class, R.xml.powermenu, R.drawable.bottomnav_system);
         addIndex(PulseSettings.class, R.xml.pulse_settings, R.drawable.bottomnav_navigation);
+	addIndex(EdgeGesturesSettings.class, R.xml.edge_gestures, R.drawable.ic_edge_gestures);
         addIndex(QuickSettings.class, R.xml.quick_settings, R.drawable.bottomnav_statusbar);
         addIndex(Recents.class, R.xml.recents, R.drawable.bottomnav_multitasking);
         addIndex(SlimRecentsBlacklist.class, R.xml.slim_recents_blacklist, R.drawable.bottomnav_multitasking);
